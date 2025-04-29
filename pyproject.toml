@@ -1,0 +1,17 @@
+[build-system]
+requires = ["maturin>=1,<2"]
+build-backend = "maturin"
+
+[tool.maturin]
+name = "pyo3_interior_mutability_experiment"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Rust",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: PyPy",
+]
+features = ["pyo3/extension-module"]
+module-name = "pyo3_interior_mutability_experiment._core"
+python-packages = ["pyo3_interior_mutability_experiment"]
+python-source = "src"
+
