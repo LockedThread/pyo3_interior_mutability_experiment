@@ -1,24 +1,3 @@
-
-Let me create a detailed README for this experiment repository. First, I'll explore the codebase to understand its structure and purpose.
-
-Ran tool
-Now let me look at the key files to understand what experiments this repository is conducting.
-
-Read file: experiments.py
-
-Read file: Cargo.toml
-
-Read file: pyproject.toml
-
-Ran tool
-
-Read file: src/lib.rs
-
-Ran tool
-
-Read file: src/pyo3_interior_mutability_experiment/__init__.py
-Based on my exploration of the repository, here's the README I'm creating:
-
 # PyO3 Interior Mutability Experiment
 
 This repository demonstrates a Python-Rust integration experiment focusing on interior mutability patterns using PyO3. It shows how to expose Rust structs with interior mutability to Python while preserving proper reference semantics.
